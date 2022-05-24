@@ -58,6 +58,8 @@ const reducer = (state, { type, payload }) => {
         operand: '',
         afterEqual: true,
       }
+    default:
+      throw new Error('Reducer Type error')
   }
 }
 
@@ -85,7 +87,7 @@ const evaluateResult = (state) => {
 function App() {
   const [state, dispatch] = useReducer(reducer, defaultState)
 
-  const { prevDigit, currDigit, operand, afterEqual } = state
+  const { prevDigit, currDigit, operand } = state
   return (
     <>
       <h1>Calculator</h1>
