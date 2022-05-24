@@ -1,4 +1,6 @@
 import { useReducer } from 'react'
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
 import './App.css'
 
 const defaultState = {
