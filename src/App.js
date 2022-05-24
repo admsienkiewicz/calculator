@@ -167,6 +167,15 @@ function App() {
           =
         </button>
       </div>
+      <footer className="footer">
+        Adam Sienkiewicz @2022
+        <a href="https://github.com/admsienkiewicz">
+          <AiFillGithub className="footer-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/adam-sienkiewicz-0429a2214/">
+          <AiFillLinkedin className="footer-icon" />
+        </a>
+      </footer>
     </>
   )
 }
