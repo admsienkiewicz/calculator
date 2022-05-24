@@ -1,1 +1,1 @@
-# Simple Ract Calculator to get better at using useReducer Hook
+Simple Ract Calculator to get better at using useReducer Hook
